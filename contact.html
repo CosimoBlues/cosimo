@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - PASCAL COSIMO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main-content">
+    <header>
+        <div class="logo">
+            <h1>PASCAL COSIMO</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+				<li class="dropdown">
+                <a class="dropbtn">Projets</a>
+                <ul class="dropdown-content">
+                    <li><a href="cosimo_blues_band.html">Cosimo Blues Band</a></li>
+                    <li><a href="the_mojo_hands.html">The Blues Kickers</a></li>
+                    <li><a href="the_blues_kickers.html">The Mojo Hands</a></li>
+					</ul>
+					</li>
+                    <!-- Ajoutez d'autres projets si nécessaire -->
+                <li><a href="gallery.html">Photos</a></li>
+                <li><a href="videos.html">Vidéos</a></li>
+				<li><a href="concerts.html">Concerts</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+	<a href="telechargement/Plan de Scène cosimo blues band harmo.pdf" download>
+    <img src="images/icône-pdf.png" alt="Télécharger le PDF" />
+</a>
+        <h2>Contactez-moi</h2>
+        <p>Pour toute demande de collaboration, interview, ou autre, vous pouvez me contacter via ce formulaire :</p>
+
+        <form action="mailto:pascal.cosimo@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Votre Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Votre Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Votre Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+	
+	</div>
+
+    <footer>
+        <p>&copy; 2025 Adrian Pluton - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

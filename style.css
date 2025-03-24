@@ -1,0 +1,151 @@
+html, body {
+    height: 100%;
+    margin: 0;
+	display: flex;
+    flex-direction: column;
+	}
+
+.main-content {
+  flex: 1;
+} 
+
+.image-container-1 {
+    text-align: center;
+	opacity: 0.3;
+}
+
+.image-container {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('images/p_blue_pluton.png'); /* Définir l'image de fond */
+    background-size: cover; /* Faire en sorte que l'image couvre tout l'écran */
+    background-position: center center; /* Centrer l'image de fond */
+    background-attachment: fixed; /* Garder l'image fixe lors du défilement */
+    color: white; /* Pour que le texte soit visible sur le fond */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Un léger fond noir transparent pour que le texte soit lisible */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+	position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #90caf9; /* Couleur au survol */
+}
+
+/* Style pour le menu déroulant */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+/* Position relative pour les éléments qui contiennent des sous-menus */
+li {
+    position: relative;
+}
+
+/* Cacher le sous-menu par défaut */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 120%; /* Positionner le sous-menu directement sous l'élément parent */
+    left: 0; /* Aligner à gauche de l'élément parent */
+    background-color: #000000;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+	margin-top: 0px; /* Assurez-vous qu'il n'y a pas de marge qui le décale */ 
+	background-color: rgba(0, 0, 0, 0.5); /* Un léger fond noir transparent pour que le texte soit lisible */	
+}
+
+/* Disposer les éléments du sous-menu verticalement */
+.dropdown-content li {
+    padding: 3px 0px;
+    display: block; /* Utilisez block pour les éléments verticaux */
+	text-align: left;  /* Aligner le contenu à droite */
+}
+
+.dropdown-content li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Afficher le sous-menu lorsque l'on survole "Projets" */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style pour le lien "Projets" */
+.dropbtn {
+    cursor: pointer;
+	padding: 10px 15px;
+}
+
+
+.language-switcher {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.language-switcher a {
+    margin-left: 15px;
+}
+
+.language-switcher img {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Un fond légèrement transparent pour améliorer la lisibilité */
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+	width: 100%
+}
+.social-links a {
+  margin: 20px;
+}
+
+.social-links img {
+  width: 40px; /* Taille des icônes */
+  height: auto;
