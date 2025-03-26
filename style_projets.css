@@ -1,23 +1,28 @@
 html, body {
-      height: 100%;
-      margin: 0;
-	  display: flex;
-	  flex-direction: column;
-    }
+    height: 100%;
+    margin: 0;
+	display: flex;
+    flex-direction: column;
+	}
 
-/* Centrer le contenu dans un conteneur */
-    .content {
-      text-align: center; /* Centrer le texte à l'intérieur du div */
-    }
-	
-	.main-content {
+.main-content {
   flex: 1;
 } 
 
-    .image-container {
+.image-container-1 {
+    text-align: center;
+	opacity: 0.3;
+}
+
+.image-container {
     text-align: center;
 }
-	
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -26,7 +31,6 @@ body {
     background-position: center center; /* Centrer l'image de fond */
     background-attachment: fixed; /* Garder l'image fixe lors du défilement */
     color: white; /* Pour que le texte soit visible sur le fond */
-	
 }
 
 header {
@@ -57,11 +61,77 @@ nav ul li a:hover {
     color: #90caf9; /* Couleur au survol */
 }
 
+/* Style pour le menu déroulant */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+/* Position relative pour les éléments qui contiennent des sous-menus */
+li {
+    position: relative;
+}
+
+/* Cacher le sous-menu par défaut */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 120%; /* Positionner le sous-menu directement sous l'élément parent */
+    left: 0; /* Aligner à gauche de l'élément parent */
+    background-color: #000000;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+	margin-top: 0px; /* Assurez-vous qu'il n'y a pas de marge qui le décale */ 
+	background-color: rgba(0, 0, 0, 0.5); /* Un léger fond noir transparent pour que le texte soit lisible */	
+}
+
+/* Disposer les éléments du sous-menu verticalement */
+.dropdown-content li {
+    padding: 3px 0px;
+    display: block; /* Utilisez block pour les éléments verticaux */
+	text-align: left;  /* Aligner le contenu à droite */
+}
+
+.dropdown-content li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Afficher le sous-menu lorsque l'on survole "Projets" */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style pour le lien "Projets" */
+.dropbtn {
+    cursor: pointer;
+	padding: 10px 15px;
+}
+
 section {
     padding: 20px;
     margin: 20px;
     background-color: rgba(0, 0, 0, 0.6); /* Un fond légèrement transparent pour améliorer la lisibilité */
     border-radius: 8px;
+}
+/* Conteneur pour aligner les titres et l'image sur la même ligne */
+.title-container {
+    display: flex;
+    align-items: center; /* Aligner verticalement au centre */
+    justify-content: space-between; /* Espacement entre les éléments */
+}
+/* Espacement entre le titre h2 et h4 */
+.title-container h4 {
+    margin-right: 1000px; /* Ajustez l'espace entre h2 et h4 selon vos besoins */
+}
+
+/* Espacement entre le texte et l'image */
+.title-container img {
+    width: 200px; /* Vous pouvez ajuster la taille de l'image */
+	margin-right: 10px; /* Ajuste l'espacement entre l'image et le texte */
 }
 
 footer {
