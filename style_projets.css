@@ -134,6 +134,16 @@ section {
 	margin-right: 10px; /* Ajuste l'espacement entre l'image et le texte */
 }
 
+.container {
+            text-align: center; /* Centre le contenu à l'intérieur du container */
+        }
+        .image {
+            width: 50%; /* Ajuste la taille de l'image */
+            margin: 0 auto; /* Centre l'image horizontalement */
+            display: block; /* Permet d'appliquer le margin auto */
+        }
+
+
 footer {
     background-color: #000000;
     color: white;
