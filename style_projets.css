@@ -21,6 +21,7 @@ html, body {
 img {
     max-width: 100%;
     height: auto;
+	margin: 10px; /* Ajoute 10px d'espace autour de chaque image */
 }
 
 body {
@@ -68,26 +69,22 @@ ul {
     margin: 0;
     display: flex;
 }
-
 /* Position relative pour les éléments qui contiennent des sous-menus */
 li {
     position: relative;
 }
-
 /* Cacher le sous-menu par défaut */
 .dropdown-content {
     display: none;
     position: absolute;
     top: 120%; /* Positionner le sous-menu directement sous l'élément parent */
     left: 0; /* Aligner à gauche de l'élément parent */
-    background-color: #000000;
     min-width: 180px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
 	margin-top: 0px; /* Assurez-vous qu'il n'y a pas de marge qui le décale */ 
 	background-color: rgba(0, 0, 0, 0.5); /* Un léger fond noir transparent pour que le texte soit lisible */	
 }
-
 /* Disposer les éléments du sous-menu verticalement */
 .dropdown-content li {
     padding: 3px 0px;
@@ -99,12 +96,10 @@ li {
     color: white;
     text-decoration: none;
 }
-
 /* Afficher le sous-menu lorsque l'on survole "Projets" */
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 /* Style pour le lien "Projets" */
 .dropbtn {
     cursor: pointer;
@@ -136,7 +131,6 @@ section {
 
 footer {
     background-color: #000000;
-    color: white;
     text-align: center;
     padding: 10px;
 	width: 100%
