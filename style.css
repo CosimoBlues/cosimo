@@ -119,6 +119,13 @@ li {
 
 .language-switcher a {
     margin-left: 15px;
+    text-decoration: none; /* Supprime le soulignement */
+    outline: none; /* Supprime le contour violet */
+    border: none; /* Supprime une éventuelle bordure */
+}
+
+.language-switcher a :visited {
+  color: inherit; /* Conserve la couleur par défaut */
 }
 
 .language-switcher img {
@@ -143,10 +150,19 @@ footer {
     font-size: 15px; /* Optionnel : Modifier la taille de la police */
     color: #333; /* Optionnel : Modifier la couleur de la police */
 }
+
 .social-links a {
   margin: 20px;
+  text-decoration: none; /* Supprime le soulignement */
+  outline: none; /* Supprime le contour violet */
+  border: none; /* Supprime une éventuelle bordure */
+}
+
+.social-links a:visited {
+  color: inherit; /* Conserve la couleur par défaut */
 }
 
 .social-links img {
   width: 40px; /* Taille des icônes */
   height: auto;
+  }
