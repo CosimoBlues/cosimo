@@ -80,7 +80,6 @@ li {
     position: absolute;
     top: 120%; /* Positionner le sous-menu directement sous l'élément parent */
     left: 0; /* Aligner à gauche de l'élément parent */
-    background-color: #000000;
     min-width: 180px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -137,7 +136,6 @@ section {
 
 footer {
     background-color: #000000;
-    color: white;
     text-align: center;
     padding: 10px;
 	width: 100%
