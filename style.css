@@ -25,8 +25,8 @@ img {
 
 @font-face {
     font-family: 'Braggadocio';
-    src: url('fonts/braggadocio.woff2') format('woff2'),
-         url('fonts/braggadocio.woff') format('woff');
+    src: url 'fonts/braggadocio.woff2' format'woff2',
+         url 'fonts/braggadocio.woff' format'woff';
     font-weight: normal;
     font-style: normal;
 }
