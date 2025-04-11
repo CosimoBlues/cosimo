@@ -19,6 +19,16 @@ img {
 	margin: 10px; /* Ajoute 10px d'espace autour de chaque image */
         }
 
+.logo h1 {
+    font-family: 'Braggadocio', serif; /* ou une autre police comme 'Arial', 'Roboto', etc. */
+    font-size: 3em; /* ajuste selon ta préférence */
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white; /* facultatif, pour la couleur */
+    margin: 0;
+    padding: 0.5em 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;

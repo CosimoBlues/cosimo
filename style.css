@@ -23,6 +23,16 @@ img {
     height: auto;
 }
 
+.logo h1 {
+    font-family: 'Braggadocio', serif; /* ou une autre police comme 'Arial', 'Roboto', etc. */
+    font-size: 3em; /* ajuste selon ta préférence */
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white; /* facultatif, pour la couleur */
+    margin: 0;
+    padding: 0.5em 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -34,6 +44,7 @@ body {
 }
 
 header {
+    font-family: ;
     background-color: rgba(0, 0, 0, 0.5); /* Un léger fond noir transparent pour que le texte soit lisible */
     color: white;
     padding: 10px 0;
