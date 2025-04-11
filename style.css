@@ -24,7 +24,7 @@ img {
 }
 
 .logo h1 {
-    font-family: Braggadocio, sans-serif; /* ou une autre police comme 'Arial', 'Roboto', etc. */
+    font-family: Braggadocio; /* ou une autre police comme 'Arial', 'Roboto', etc. */
     font-size: 3em; /* ajuste selon ta préférence */
     font-weight: bold;
     text-transform: uppercase;
