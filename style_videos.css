@@ -30,8 +30,17 @@ html, body {
     margin-top: 8px;
 }
 
+@font-face {
+    font-family: 'Braggadocio';
+    src: url('fonts/braggadocio.woff2') format('woff2'),
+         url('fonts/braggadocio.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .logo h1 {
-    font-family: 'Braggadocio', serif; /* ou une autre police comme 'Arial', 'Roboto', etc. */
+    font-family: 'Braggadocio', cursive; /* ou une autre police comme 'Arial', 'Roboto', etc. */
     font-size: 3em; /* ajuste selon ta préférence */
     font-weight: bold;
     text-transform: uppercase;
