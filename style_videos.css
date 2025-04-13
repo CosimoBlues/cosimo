@@ -60,6 +60,7 @@ body {
 }
 
 header {
+    font-size: 18px; /* <-- Ajouté ici pour réduire la taille de la police */
     background-color: rgba(0, 0, 0, 0.5); /* Un léger fond noir transparent pour que le texte soit lisible */
     color: white;
     padding: 10px 0;
@@ -105,7 +106,7 @@ li {
     position: absolute;
     top: 120%; /* Positionner le sous-menu directement sous l'élément parent */
     left: 0; /* Aligner à gauche de l'élément parent */
-    min-width: 180px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
 	margin-top: 0px; /* Assurez-vous qu'il n'y a pas de marge qui le décale */
