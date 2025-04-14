@@ -128,11 +128,11 @@ section {
 }
 
 footer {
+    font-family: 'Arial', sans-serif; /* Exemple de modification de la police */
+    font-size: 15px; /* Optionnel : Modifier la taille de la police */
+    color: #333; /* Optionnel : Modifier la couleur de la police */
     background-color: #000000;
     text-align: center;
     padding: 10px;
 	width: 100%
-	font-family: 'Arial', sans-serif; /* Exemple de modification de la police */
-    font-size: 15px; /* Optionnel : Modifier la taille de la police */
-    color: #333; /* Optionnel : Modifier la couleur de la police */
 }
