@@ -21,6 +21,7 @@
                 <ul class="dropdown-content">
                     <li><a href="cosimo_blues_band.html">Cosimo Blues Band</a></li>
                     <li><a href="cosimo_blues_duo.html">Cosimo Blues Duo</a></li>
+                    <li><a href="cosimo_solo.html">Cosimo Solo Show</a></li>
                     <li><a href="the_mojo_hands.html">The Mojo Hands</a></li>
                     <li><a href="the_blues_kickers.html">The Blues Kickers</a></li>
                     </ul>
@@ -45,27 +46,71 @@
     <section id="home">
         <h2>Bienvenue sur le site officiel</h2>
         <p>PASCAL COSIMO vous invite à découvrir la Planète Blues d'ADRIAN PLUTON.</p>
-		<audio controls>
-            <source src="musique/compil.mp3" type="audio/mp3";>
-            Your browser does not support the audio element.
-        </audio>
-          <h2>A la une</h2>
-		 </section> 
+    </section>
+    <h4>Les projets</h4>
+    <section id="projets">
+        <a href="cosimo_solo.html">
+            <img src="projets/logo_cosimo_solo.png" alt="Logo Cosimo Solo" style="height:180px;">
+        </a>
+    
+        <a href="cosimo_blues_duo.html">
+            <img src="projets/logo_cosimo_duo.png" alt="Logo Cosimo Duo" style="height:150px;">
+        </a>
+    
+        <a href="cosimo_blues_band.html">
+            <img src="projets/logo_cosimo.png" alt="Logo Cosimo" style="height:170px;">
+        </a>
+    
+        <a href="the_mojo_hands.html">
+            <img src="projets/logo_mh.png" alt="Logo Mojo the_mojo_hands" style="height:150px;">
+        </a>
+    
+        <a href="the_blues_kickers.html">
+            <img src="projets/logo_bk.png" alt="Logo Blues Kickers" style="height:150px;">
+        </a>
+    </section>
+    
+        <h4>A la une</h4>
     <section id="actu">
-         <img src="actu/sollies.jpg" alt="Photo Sollies" style="height:400px; margin-right: 15px;">
-         <img src="actu/sillans.jpg" alt="Photo Sillans" style="height:400px; margin-right: 15px;">
-         <img src="actu/affiche_sanary_mh.jpg" alt="Photo Sanary" style="height:400px; margin-right: 15px;">
-         <img src="actu/chubby_cosimo.jpg" alt="Photo Chubby" style="height:400px; margin-right: 15px;">
-         <img src="actu/cosimo_chine.jpeg" alt="Photo Chine" style="height:400px; margin-right: 15px;">
+         <img src="actu/sollies.jpg" alt="Photo Sollies" style="height:400px;">
+         <img src="actu/sillans.jpg" alt="Photo Sillans" style="height:400px;">
+         <img src="actu/affiche_sanary_mh.jpg" alt="Photo Sanary" style="height:400px;">
+         <img src="actu/chubby_cosimo.jpg" alt="Photo Chubby" style="height:400px;">
+         <img src="actu/cosimo_chine.jpeg" alt="Photo Chine" style="height:400px;">
          </section>
 
          <style>
+            h4 {
+                margin-left: 40px;
+                font-size: 22px; /* Tu peux ajuster la taille ici (ex. 24px, 1.5em, etc.) */
+                font-family: 'Arial', sans-serif; /* Change la police ici */
+                color: white; /* Change la couleur du texte ici */
+               }
+            #projets {
+               display: flex;
+               justify-content: center; /* Centre les images horizontalement */
+               align-items: center; /* Centre verticalement si nécessaire */
+               flex-wrap: wrap; /* Permet de passer à la ligne si trop d'images */
+               gap: 40px; /* Remplace margin-right pour espacer les images */
+               }
+
+               #projets a img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#projets a img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
             #actu {
                display: flex;
                justify-content: center; /* Centre les images horizontalement */
                align-items: center; /* Centre verticalement si nécessaire */
                flex-wrap: wrap; /* Permet de passer à la ligne si trop d'images */
-               gap: 15px; /* Remplace margin-right pour espacer les images */
+               gap: 30px; /* Remplace margin-right pour espacer les images */
                }
          </style>
 
