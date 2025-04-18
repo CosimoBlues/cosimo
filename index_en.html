@@ -17,10 +17,11 @@
                 <li><a href="index_en.html">Home</a></li>
                 <li><a href="about_en.html">About</a></li>
                 <li class="dropdown">
-                <a class="dropbtn">Projets</a>
+                <a class="dropbtn">Projects</a>
                 <ul class="dropdown-content">
                     <li><a href="cosimo_blues_band_en.html">Cosimo Blues Band</a></li>
                     <li><a href="cosimo_blues_duo_en.html">Cosimo Blues Duo</a></li>
+                    <li><a href="cosimo_solo_en.html">Cosimo Solo Show</a></li>
                     <li><a href="the_mojo_hands_en.html">The Mojo Hands</a></li>
                     <li><a href="the_blues_kickers_en.html">The Blues Kickers</a></li>
                     </ul>
@@ -45,11 +46,32 @@
     <section id="home">
         <h2>Welcome to the Official Website</h2>
         <p>PASCAL COSIMO invites you to discover ADRIAN PLUTON's Blues Planet.</p>
-		<audio controls>
-            <source src="musique/compil.mp3" type="audio/mp3">
-            Your browser does not support the audio element.
-        </audio>
-    </section>
+		</section>
+        <h4>The projects</h4>
+        <section id="projets">
+            <a href="cosimo_solo.html">
+                <img src="projets/logo_cosimo_solo.png" alt="Logo Cosimo Solo" style="height:180px;">
+            </a>
+        
+            <a href="cosimo_blues_duo.html">
+                <img src="projets/logo_cosimo_duo.png" alt="Logo Cosimo Duo" style="height:150px;">
+            </a>
+        
+            <a href="cosimo_blues_band.html">
+                <img src="projets/logo_cosimo.png" alt="Logo Cosimo" style="height:170px;">
+            </a>
+        
+            <a href="the_mojo_hands.html">
+                <img src="projets/logo_mh.png" alt="Logo Mojo the_mojo_hands" style="height:150px;">
+            </a>
+        
+            <a href="the_blues_kickers.html">
+                <img src="projets/logo_bk.png" alt="Logo Blues Kickers" style="height:150px;">
+            </a>
+        </section>
+        
+            <h4>In the news</h4>
+
     <section id="actu">
         <img src="actu/sollies.jpg" alt="Photo Sollies" style="height:400px; margin-right: 15px;">
         <img src="actu/sillans.jpg" alt="Photo Sillans" style="height:400px; margin-right: 15px;">
@@ -59,14 +81,39 @@
         </section>
 
         <style>
+            h4 {
+                margin-left: 40px;
+                font-size: 22px; /* Tu peux ajuster la taille ici (ex. 24px, 1.5em, etc.) */
+                font-family: 'Arial', sans-serif; /* Change la police ici */
+                color: white; /* Change la couleur du texte ici */
+               }
+            #projets {
+               display: flex;
+               justify-content: center; /* Centre les images horizontalement */
+               align-items: center; /* Centre verticalement si nécessaire */
+               flex-wrap: wrap; /* Permet de passer à la ligne si trop d'images */
+               gap: 40px; /* Remplace margin-right pour espacer les images */
+               }
+
+               #projets a img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#projets a img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
             #actu {
                display: flex;
                justify-content: center; /* Centre les images horizontalement */
                align-items: center; /* Centre verticalement si nécessaire */
                flex-wrap: wrap; /* Permet de passer à la ligne si trop d'images */
-               gap: 15px; /* Remplace margin-right pour espacer les images */
+               gap: 30px; /* Remplace margin-right pour espacer les images */
                }
-       </style>
+         </style>
 
 	<div class="image-container-1">
                 <img src="images/21_nb.jpg" alt="image centrée" style="width:95%;">
